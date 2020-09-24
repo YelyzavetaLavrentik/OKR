@@ -5,15 +5,15 @@ int main() {
 
 	double firstNumber;
 	double secondNumber;
-	double thirdNumber;
+	double thirdNumber123;
 	cout << "Let's cout average! \nEnter first number: ";
 	cin >> firstNumber;
 	cout << "Enter second number: ";
 	cin >> secondNumber;
 	cout << "Enter third number: ";
-	cin >> thirdNumber;
+	cin >> thirdNumber123;
 
-	double average = double(firstNumber + secondNumber + thirdNumber) / 3.0;
+	double average = double(firstNumber + secondNumber + thirdNumber123) / 3.0;
 	cout << "Average is " << average;
 
 }
